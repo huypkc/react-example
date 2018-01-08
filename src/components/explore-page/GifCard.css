@@ -1,0 +1,58 @@
+.GifCard {
+  text-align: center;
+  margin: 10px 5px;
+}
+
+.GifCard--Image {
+  background: white;
+  padding: 10px;
+}
+
+.GifCard--Image>img {
+  max-width: 100%;
+}
+
+.GifCard--Statistics {
+  color: grey;
+  margin-right: 3px;
+}
+
+.GifCard--Statistics> span {
+  margin-left: 8px;
+}
+
+.GifCard--Statistics> span> i {
+  margin-right: 4px;
+}
+
+.Author {
+  display: flex;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.Author>img {
+  width: 25px;
+  height: 25px;
+  max-width: 25px;
+  margin-right: 10px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.Author--Name {
+  margin: 0;
+  padding: 0;
+}
+
+.ButtonGroup {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ButtonGroup > button, .ButtonGroup> div {
+  display: inline-block;
+}
